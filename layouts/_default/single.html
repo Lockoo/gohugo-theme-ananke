@@ -40,9 +40,12 @@
 	  <hr>
 	  {{ partial "social-share.html" . }}
 	  {{- partial "related.html" . -}}
+	  
+	  {{ if (or (eq (.Param "show_comments") true) (eq $section.Params.show_comments true) )}}
       <div class="mt6">
         {{ template "_internal/disqus.html" . }}
       </div>
+	  {{ end }}
     </section>
 
     <aside class="w-30-l mt6-l">
