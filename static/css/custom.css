@@ -1,5 +1,5 @@
 .resp-sharing-button {
-	font-size: 0.42em;
+	font-size: 0.35em;
 }
 
 .resp-sharing-button__link,
@@ -21,8 +21,8 @@
 }
 
 .resp-sharing-button__icon svg {
-  width: 2em;
-  height: 2em;
+  width: 1.5em;
+  height: 1.5em;
   margin-right: 0.4em;
   vertical-align: top
 }
