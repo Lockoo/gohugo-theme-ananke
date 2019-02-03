@@ -21,8 +21,8 @@
 }
 
 .resp-sharing-button__icon svg {
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
   margin-right: 0.4em;
   vertical-align: top
 }
@@ -214,7 +214,7 @@ background-color: #FF6600
   
   
   
-ul {
+.ul {
 	-webkit-columns: 2;
 	-moz-columns: 2;
 	columns: 2
