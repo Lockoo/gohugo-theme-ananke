@@ -1,5 +1,5 @@
 .resp-sharing-button {
-	font-size: 0.35em;
+	font-size: 0.4em;
 }
 
 .resp-sharing-button__link,
@@ -200,8 +200,8 @@ background-color: #FF6600
 
 .resp-sharing-button--hackernews:hover
 .resp-sharing-button--hackernews:active {
-  background-color: #FB6200;
-  border-color: #FB6200;
+  background-color: #c14505;
+  border-color: #c14505;
 }
 
 .resp-sharing-button--telegram {
