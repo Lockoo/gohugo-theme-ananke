@@ -3659,7 +3659,10 @@ code, .code {
 
 */
 
-.pa0 { padding: 0; }
+.pa0 {
+	padding: 0; 
+	columns: 2;
+	}
 
 .pa1 { padding: .25rem; }
 
