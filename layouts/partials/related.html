@@ -3,7 +3,7 @@
 <h3>See Also</h3>
 <ul>
 	{{ range . }}
-	<li><img border="0" alt="{{ index .Params "featured_image" }}" src="../../{{ index .Params "featured_image" }}" style="width:355px;height:200px"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	<li><img border="0" alt="{{ index .Params "featured_image" }}" src="../../{{ index .Params "featured_image" }}" style="width:355px;height:150px"><a href="{{ .RelPermalink }}">{{ .Title }}</a>	 {{ dateFormat "January 9, 2006" .Lastmod }}</li>
 	
 	{{ end }}
 </ul>

@@ -39,6 +39,7 @@
       {{- .Content -}}
 	  <hr>
 	  {{ partial "social-share.html" . }}
+	  {{ partial "newsletter.html" . }}
 	  {{- partial "related.html" . -}}
 	  
 	  {{ if (or (eq (.Param "show_comments") true) (eq $section.Params.show_comments true) )}}
@@ -53,4 +54,7 @@
 	  {{- partial "tags.html" . -}}
     </aside>
   </article>
+  {{ partial "seo-schema.html" .}}
 {{ end }}
+
+

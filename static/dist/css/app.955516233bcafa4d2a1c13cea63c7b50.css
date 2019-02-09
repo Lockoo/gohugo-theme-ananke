@@ -2531,6 +2531,7 @@ code, .code {
 .link {
   text-decoration: none;
   transition: color .15s ease-in;
+  color: #19A974;
 }
 
 .link:link,
