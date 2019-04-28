@@ -1,9 +1,10 @@
 <footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline dark-green dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+  <a class="f4 fw4 hover-dark-green no-underline white-90 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
     &copy; dev-stories.com
   </a>
-    <div style="color:#137752">Find me {{ partial "social-follow.html" . }}</div>
+    <div> 
+	<p class="v-top hover-dark-green no-underline white-90">Let's connect!<p/> {{ partial "social-follow.html" . }}</div>
   </div>
   
 </footer>
