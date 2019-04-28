@@ -5756,16 +5756,7 @@ code, .code {
   display: block;
 }
 
-.nested-links a {
-  color: #357edd;
-  transition: color .15s ease-in;
-}
 
-.nested-links a:hover,
-.nested-links a:focus {
-  color: #96ccff;
-  transition: color .15s ease-in;
-}
 
 /*
 

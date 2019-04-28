@@ -2,8 +2,8 @@
 <h3>Tags</h3>
 <ul class="pa0">
   {{ range .Params.tags }}
-   <li class="list">
-     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib sans-serif green">
+   <li class="list ">
+     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f5 grow no-underline br-pill ba dim dark-green ph3 pv2 mb2 dib sans-serif">
        {{- . -}}
      </a>
    </li>

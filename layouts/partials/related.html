@@ -3,7 +3,7 @@
 <h3>See Also</h3>
 <ul>
 	{{ range . }}
-	<li><a href="{{ .RelPermalink }}"><font color="#19A974">{{ .Title }}</font></a>	 {{ dateFormat "January 9, 2006" .Lastmod }}</li>
+	<li><a href="{{ .RelPermalink }}" class="f3 fw2 dim dark-green dib" >{{ .Title }}</a>	 {{ dateFormat "January 9, 2006" .Lastmod }}</li>
 	{{ end }}
 </ul>
 {{ end }}
