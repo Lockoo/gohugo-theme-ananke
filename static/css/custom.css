@@ -21,6 +21,13 @@ a.green {
 	color: #19A974;
 }
 
+a:hover {
+	color: #19A974;
+	
+}
+
+
+
 
 .resp-sharing-button {
   border-radius: 5px;
