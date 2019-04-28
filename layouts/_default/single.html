@@ -50,8 +50,11 @@
 	  {{ end }}
     </section>
 
-    <aside class="w-30-l mt6-l">
+    <aside class="w-30-l mt3-l pl5">
+		{{- partial "menu-contextual.html" . -}}
     </aside>
+	
+	
   </article>
   {{ partial "seo-schema.html" .}}
 {{ end }}

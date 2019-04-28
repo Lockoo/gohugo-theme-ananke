@@ -27,6 +27,12 @@ a:hover {
 }
 
 
+li a:hover {
+	color: white;
+}
+
+
+
 
 
 .resp-sharing-button {
