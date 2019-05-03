@@ -1,0 +1,12 @@
+<div>
+<h2 class="w-100 w-50-ns center">Categories</h2>
+<ul class="pa0">
+  {{ range $.Site.Params.tags }}
+   <li class="list">
+     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f3 grow no-underline br-pill ba dim dark-green ph3 pv2 mb2 dib sans-serif">
+       {{- . -}}
+     </a>
+   </li>
+  {{ end }}
+</ul>
+</div>
