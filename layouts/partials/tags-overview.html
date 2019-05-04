@@ -3,7 +3,7 @@
 <ul class="pa0">
   {{ range $.Site.Params.tags }}
    <li class="list">
-     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f3 grow no-underline br-pill ba dim dark-green ph3 pv2 mb2 dib sans-serif">
+     <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="link f3 grow no-underline br-pill ba dim dark-green ph3 pv2 mb2 ml3 dib sans-serif">
        {{- . -}}
      </a>
    </li>
